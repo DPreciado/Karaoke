@@ -14,8 +14,16 @@
         <ComboBox x:Name="cbDispositivoSalida" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" Width="388"/>
         <ProgressBar x:Name="pbCancion" HorizontalAlignment="Left" Height="15" Margin="10,10,0,0" VerticalAlignment="Top" Width="393"/>
         <Canvas x:Name="cvsLetra" HorizontalAlignment="Left" Height="148" Margin="10,30,0,0" VerticalAlignment="Top" Width="388">
-            <TextBlock x:Name="txt1" Canvas.Left="59" TextWrapping="Wrap" Text="Mexicanos, al grito de guerra,       El acero aprestad y el bridón,        Y retiemble en sus centros la tierra. Al sonoro rugir del cañón." Canvas.Top="18" Width="278" FontSize="18" Visibility="Hidden"/>
-            <TextBlock x:Name="txt2" Canvas.Left="59" TextWrapping="Wrap" Canvas.Top="18" Width="278" FontSize="18" Text="Ciña ¡oh patria! tus sienes de oliva, De la paz el arcángel divino,      Que en el cielo tu eterno destino, Por el dedo de dios se escribió."/>
+            <TextBlock x:Name="txt1" Canvas.Left="59" TextWrapping="Wrap" Text="Mexicanos, al grito de guerra,       El acero aprestad y el bridón,        Y retiemble en sus centros la tierra. Al sonoro rugir del cañón." Canvas.Top="18" Width="278" FontSize="18" Visibility="Collapsed"/>
+            <TextBlock x:Name="txt2" Canvas.Left="59" TextWrapping="Wrap" Canvas.Top="18" Width="278" FontSize="18" Text="Y retiemble en sus centros la tierra.
+Al sonoro rugir del cañón." Visibility="Collapsed"/>
+            <TextBlock x:Name="txt3" Canvas.Left="59" TextWrapping="Wrap" Canvas.Top="18" Width="278" FontSize="18" Text="Ciña ¡oh patria! tus sienes de oliva, De la paz el arcángel divino,      Que en el cielo tu eterno destino, Por el dedo de dios se escribió." Visibility="Collapsed"/>
+            <TextBlock x:Name="txt4" Canvas.Left="59" TextWrapping="Wrap" Canvas.Top="18" Width="301" FontSize="18" Text="Más si osare un extraño enemigo
+Profanar con su planta tu suelo
+Piensa ¡oh patria querida! que el cielo
+Un soldado en cada hijo te dio." Visibility="Collapsed"/>
+            <TextBlock x:Name="txt5" Canvas.Left="59" TextWrapping="Wrap" Canvas.Top="18" Width="301" FontSize="18" Text="Un soldado en cada hijo te dio." Visibility="Collapsed"/>
+
 
         </Canvas>
 
