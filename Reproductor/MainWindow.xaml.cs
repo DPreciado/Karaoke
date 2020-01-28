@@ -52,6 +52,8 @@ namespace Reproductor
             txt4.Visibility = Visibility.Hidden;
             txt5.Visibility = Visibility.Hidden;
 
+            sldTiempo.Visibility = Visibility.Collapsed;
+
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromMilliseconds(500);
             timer.Tick += Timer_Tick;
@@ -78,16 +80,31 @@ namespace Reproductor
                     txt2.Visibility = Visibility.Hidden;
                     txt3.Visibility = Visibility.Visible;
                 }
-                else if(pbCancion.Value >= 46 && pbCancion.Value <=55)
+                else if(pbCancion.Value >= 46 && pbCancion.Value <=62)
                 {
                     txt3.Visibility = Visibility.Hidden;
                     txt4.Visibility = Visibility.Visible;
                 }
-                else if(pbCancion.Value >= 56)
+                else if(pbCancion.Value >= 62 && pbCancion.Value <= 67)
                 {
                     txt4.Visibility = Visibility.Hidden;
                     txt5.Visibility = Visibility.Visible;
                 }
+                else if(pbCancion.Value >= 68 && pbCancion.Value <=83)
+                {
+                    txt5.Visibility = Visibility.Hidden;
+                    txt1.Visibility = Visibility.Visible;
+                }
+                else if(pbCancion.Value >= 84 && pbCancion.Value <=93)
+                {
+                    txt1.Visibility = Visibility.Hidden;
+                    txt2.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    txt2.Visibility = Visibility.Hidden;
+                }
+
             }
 
         }

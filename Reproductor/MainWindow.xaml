@@ -10,8 +10,8 @@
         <Button x:Name="btnReproducir" Content="Reproducir" HorizontalAlignment="Left" Margin="149,64,0,0" VerticalAlignment="Top" Width="75" Click="BtnReproducir_Click"/>
         <Slider x:Name="sldTiempo" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="393" Maximum="100"
                 Thumb.DragStarted="SldTiempo_DragStarted"
-                Thumb.DragCompleted="SldTiempo_DragCompleted"/>
-        <ComboBox x:Name="cbDispositivoSalida" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" Width="388"/>
+                Thumb.DragCompleted="SldTiempo_DragCompleted" Visibility="Collapsed"/>
+        <ComboBox x:Name="cbDispositivoSalida" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" Width="388" Visibility="Collapsed"/>
         <ProgressBar x:Name="pbCancion" HorizontalAlignment="Left" Height="15" Margin="10,10,0,0" VerticalAlignment="Top" Width="393"/>
         <Canvas x:Name="cvsLetra" HorizontalAlignment="Left" Height="148" Margin="10,30,0,0" VerticalAlignment="Top" Width="388">
             <TextBlock x:Name="txt1" Canvas.Left="59" TextWrapping="Wrap" Text="Mexicanos, al grito de guerra,       El acero aprestad y el bridón,        Y retiemble en sus centros la tierra. Al sonoro rugir del cañón." Canvas.Top="18" Width="278" FontSize="18" Visibility="Collapsed"/>
